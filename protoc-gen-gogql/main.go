@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/danielvladco/go-proto-gql/pkg/generator"
-	gqlpb "github.com/danielvladco/go-proto-gql/pkg/graphqlpb"
+	"github.com/stateful/go-proto-gql/pkg/generator"
+	gqlpb "github.com/stateful/go-proto-gql/pkg/graphqlpb"
 	"google.golang.org/protobuf/compiler/protogen"
 	"google.golang.org/protobuf/proto"
 	"google.golang.org/protobuf/reflect/protoreflect"

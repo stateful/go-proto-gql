@@ -14,7 +14,7 @@ import (
 
 	"github.com/99designs/gqlgen/graphql"
 	"github.com/99designs/gqlgen/graphql/introspection"
-	"github.com/danielvladco/go-proto-gql/example/codegen/api/pb"
+	"github.com/stateful/go-proto-gql/example/codegen/api/pb"
 	gqlparser "github.com/vektah/gqlparser/v2"
 	"github.com/vektah/gqlparser/v2/ast"
 )
@@ -1630,7 +1630,7 @@ func (ec *executionContext) _Mutation_serviceMutate1(ctx context.Context, field 
 		if data, ok := tmp.(*pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/api/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/stateful/go-proto-gql/example/codegen/api/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -1722,7 +1722,7 @@ func (ec *executionContext) _Mutation_serviceMutate2(ctx context.Context, field 
 		if data, ok := tmp.(*pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/api/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/stateful/go-proto-gql/example/codegen/api/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -1814,7 +1814,7 @@ func (ec *executionContext) _Mutation_servicePublish(ctx context.Context, field 
 		if data, ok := tmp.(*pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/api/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/stateful/go-proto-gql/example/codegen/api/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -1906,7 +1906,7 @@ func (ec *executionContext) _Mutation_servicePubSub1(ctx context.Context, field 
 		if data, ok := tmp.(*pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/api/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/stateful/go-proto-gql/example/codegen/api/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -1998,7 +1998,7 @@ func (ec *executionContext) _Mutation_serviceInvalidSubscribe3(ctx context.Conte
 		if data, ok := tmp.(*pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/api/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/stateful/go-proto-gql/example/codegen/api/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -2090,7 +2090,7 @@ func (ec *executionContext) _Mutation_servicePubSub2(ctx context.Context, field 
 		if data, ok := tmp.(*pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/api/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/stateful/go-proto-gql/example/codegen/api/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -2182,7 +2182,7 @@ func (ec *executionContext) _Mutation_newName(ctx context.Context, field graphql
 		if data, ok := tmp.(*pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/api/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/stateful/go-proto-gql/example/codegen/api/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -2274,7 +2274,7 @@ func (ec *executionContext) _Mutation_name(ctx context.Context, field graphql.Co
 		if data, ok := tmp.(*pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/api/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/stateful/go-proto-gql/example/codegen/api/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -2366,7 +2366,7 @@ func (ec *executionContext) _Mutation_newName0(ctx context.Context, field graphq
 		if data, ok := tmp.(*pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/api/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/stateful/go-proto-gql/example/codegen/api/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -2458,7 +2458,7 @@ func (ec *executionContext) _Mutation_queryMutate1(ctx context.Context, field gr
 		if data, ok := tmp.(*pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/api/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/stateful/go-proto-gql/example/codegen/api/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -2550,7 +2550,7 @@ func (ec *executionContext) _Query_serviceQuery1(ctx context.Context, field grap
 		if data, ok := tmp.(*pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/api/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/stateful/go-proto-gql/example/codegen/api/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -2642,7 +2642,7 @@ func (ec *executionContext) _Query_serviceInvalidSubscribe1(ctx context.Context,
 		if data, ok := tmp.(*pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/api/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/stateful/go-proto-gql/example/codegen/api/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -2734,7 +2734,7 @@ func (ec *executionContext) _Query_queryQuery1(ctx context.Context, field graphq
 		if data, ok := tmp.(*pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/api/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/stateful/go-proto-gql/example/codegen/api/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -2826,7 +2826,7 @@ func (ec *executionContext) _Query_queryQuery2(ctx context.Context, field graphq
 		if data, ok := tmp.(*pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/api/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/stateful/go-proto-gql/example/codegen/api/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -3047,7 +3047,7 @@ func (ec *executionContext) _Subscription_serviceSubscribe(ctx context.Context, 
 		if data, ok := tmp.(<-chan *pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be <-chan *github.com/danielvladco/go-proto-gql/example/codegen/api/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be <-chan *github.com/stateful/go-proto-gql/example/codegen/api/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -3153,7 +3153,7 @@ func (ec *executionContext) _Subscription_servicePubSub1(ctx context.Context, fi
 		if data, ok := tmp.(<-chan *pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be <-chan *github.com/danielvladco/go-proto-gql/example/codegen/api/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be <-chan *github.com/stateful/go-proto-gql/example/codegen/api/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -3259,7 +3259,7 @@ func (ec *executionContext) _Subscription_serviceInvalidSubscribe2(ctx context.C
 		if data, ok := tmp.(<-chan *pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be <-chan *github.com/danielvladco/go-proto-gql/example/codegen/api/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be <-chan *github.com/stateful/go-proto-gql/example/codegen/api/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -3365,7 +3365,7 @@ func (ec *executionContext) _Subscription_serviceInvalidSubscribe3(ctx context.C
 		if data, ok := tmp.(<-chan *pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be <-chan *github.com/danielvladco/go-proto-gql/example/codegen/api/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be <-chan *github.com/stateful/go-proto-gql/example/codegen/api/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -3471,7 +3471,7 @@ func (ec *executionContext) _Subscription_servicePubSub2(ctx context.Context, fi
 		if data, ok := tmp.(<-chan *pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be <-chan *github.com/danielvladco/go-proto-gql/example/codegen/api/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be <-chan *github.com/stateful/go-proto-gql/example/codegen/api/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -3577,7 +3577,7 @@ func (ec *executionContext) _Subscription_querySubscribe(ctx context.Context, fi
 		if data, ok := tmp.(<-chan *pb.Data); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be <-chan *github.com/danielvladco/go-proto-gql/example/codegen/api/pb.Data`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be <-chan *github.com/stateful/go-proto-gql/example/codegen/api/pb.Data`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)

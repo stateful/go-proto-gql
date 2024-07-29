@@ -1,6 +1,6 @@
-module github.com/danielvladco/go-proto-gql
+module github.com/stateful/go-proto-gql
 
-go 1.17
+go 1.22
 
 require (
 	github.com/99designs/gqlgen v0.17.22
