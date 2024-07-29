@@ -2,11 +2,12 @@ package main
 
 import (
 	"flag"
-	"github.com/danielvladco/go-proto-gql/pkg/server"
 	"log"
 	"net"
 	"net/http"
 	"os"
+
+	"github.com/stateful/go-proto-gql/pkg/server"
 
 	"gopkg.in/yaml.v2"
 )

@@ -12,8 +12,8 @@ import (
 
 	"github.com/99designs/gqlgen/graphql"
 	"github.com/99designs/gqlgen/graphql/introspection"
-	"github.com/danielvladco/go-proto-gql/example/codegen/api/pb"
-	"github.com/danielvladco/go-proto-gql/pkg/types"
+	"github.com/stateful/go-proto-gql/example/codegen/api/pb"
+	"github.com/stateful/go-proto-gql/pkg/types"
 	gqlparser "github.com/vektah/gqlparser/v2"
 	"github.com/vektah/gqlparser/v2/ast"
 	"google.golang.org/protobuf/types/known/anypb"
@@ -4717,7 +4717,7 @@ func (ec *executionContext) _Mutation_constructsScalars_(ctx context.Context, fi
 		if data, ok := tmp.(*pb.Scalars); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/api/pb.Scalars`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/stateful/go-proto-gql/example/codegen/api/pb.Scalars`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -4823,7 +4823,7 @@ func (ec *executionContext) _Mutation_constructsRepeated_(ctx context.Context, f
 		if data, ok := tmp.(*pb.Repeated); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/api/pb.Repeated`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/stateful/go-proto-gql/example/codegen/api/pb.Repeated`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -4931,7 +4931,7 @@ func (ec *executionContext) _Mutation_constructsMaps_(ctx context.Context, field
 		if data, ok := tmp.(*pb.Maps); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/api/pb.Maps`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/stateful/go-proto-gql/example/codegen/api/pb.Maps`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -5039,7 +5039,7 @@ func (ec *executionContext) _Mutation_constructsAny_(ctx context.Context, field 
 		if data, ok := tmp.(*pb.Any); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/api/pb.Any`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/stateful/go-proto-gql/example/codegen/api/pb.Any`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -5298,7 +5298,7 @@ func (ec *executionContext) _Mutation_constructsRef_(ctx context.Context, field 
 		if data, ok := tmp.(*pb.Ref); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/api/pb.Ref`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/stateful/go-proto-gql/example/codegen/api/pb.Ref`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)
@@ -5394,7 +5394,7 @@ func (ec *executionContext) _Mutation_constructsOneof_(ctx context.Context, fiel
 		if data, ok := tmp.(*pb.Oneof); ok {
 			return data, nil
 		}
-		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/danielvladco/go-proto-gql/example/codegen/api/pb.Oneof`, tmp)
+		return nil, fmt.Errorf(`unexpected type %T from directive, should be *github.com/stateful/go-proto-gql/example/codegen/api/pb.Oneof`, tmp)
 	})
 	if err != nil {
 		ec.Error(ctx, err)

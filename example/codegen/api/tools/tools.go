@@ -4,5 +4,5 @@
 package tools
 
 import (
-	_ "github.com/danielvladco/go-proto-gql/pkg/types"
+	_ "github.com/stateful/go-proto-gql/pkg/types"
 )
